@@ -165,7 +165,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 512, 512)
 
 [node name="Player" parent="." instance=ExtResource("5_tgx6m")]
-position = Vector2(9502, 407)
+position = Vector2(9486, 429)
 
 [node name="TileMap" type="TileMap" parent="."]
 z_index = 50
