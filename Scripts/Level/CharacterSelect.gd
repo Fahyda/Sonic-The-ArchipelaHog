@@ -28,7 +28,43 @@ func SetBossMusic(OST : int):
 			musicLabel.text = "Boss music - Metal sonic remix"
 			pass
 		1:
+			musicLabel.text = "Boss music - 3d Blast Boss 1"
+			pass
+		2:
 			musicLabel.text = "Boss music - 3d Blast Boss 2"
+			pass
+		3:
+			musicLabel.text = "Boss music - Sonic 1 boss"
+			pass
+		4:
+			musicLabel.text = "Boss music - Sonic 2 boss"
+			pass
+		5:
+			musicLabel.text = "Boss music - Sonic 3 Miniboss"
+			pass
+		6:
+			musicLabel.text = "Boss music - Sonic 4 Boss remix"
+			pass
+		7:
+			musicLabel.text = "Boss music - Sonic 4 Pinch remix"
+			pass
+		8:
+			musicLabel.text = "Boss music - Sonic and Knuckles Miniboss"
+			pass
+		9:
+			musicLabel.text = "Boss music - Sonic and Knuckles Majorboss"
+			pass
+		10:
+			musicLabel.text = "Boss music - Sonic and Knuckles alt Miniboss"
+			pass
+		11:
+			musicLabel.text = "Boss music - Sonic and Knuckles alt Majorboss"
+			pass
+		12:
+			musicLabel.text = "Boss music - Sonic Advance 2 Boss remix"
+			pass
+		13:
+			musicLabel.text = "Boss music - Sonic Advance 2 Pinch remix"
 			pass
 	boss_theme.BossMusic(OST)
 	pass
@@ -52,7 +88,7 @@ func _ready():
 func _input(event):
 	 #Music swapping for boss music
 	if event.is_action_pressed("gm_action"):
-		if OSTNumb >= 1:
+		if OSTNumb >= 13:
 			OSTNumb = 0
 		else:
 			OSTNumb += 1
