@@ -19,11 +19,11 @@ config/icon="res://icon.png"
 
 [autoload]
 
+Archipelago="*res://godot_ap/autoloads/archipelago.tscn"
+Saves="*res://godot_ap/autoloads/saves.gd"
+TrackerManager="*res://godot_ap/autoloads/tracker_manager.gd"
 Global="*res://Scripts/Global/Global.gd"
 GlobalFunctions="*res://Scripts/Global/GlobalFunctions.gd"
-Archipelago="*res://godot_ap/autoloads/archipelago.tscn"
-TrackerManager="*res://godot_ap/autoloads/tracker_manager.gd"
-Saves="*res://godot_ap/autoloads/saves.gd"
 
 [debug]
 

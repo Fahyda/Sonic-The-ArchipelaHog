@@ -8,7 +8,7 @@ class_name AP extends Node
 @export_group("Client Settings")
 @export var AP_PRINT_ITEMS_ON_CONNECT := false ## Prints what items have been previously collected when reconnecting to a slot.
 @export var AP_HIDE_NONLOCAL_ITEMSENDS := true ## Hide item send messages that don't involve the client.
-@export var AP_AUTO_OPEN_CONSOLE := false ## Automatically opens a default AP text console.
+@export var AP_AUTO_OPEN_CONSOLE := true ## Automatically opens a default AP text console.
 @export var AP_ALLOW_TRACKERPACKS := true ## Allow loading custom tracker packs.
 
 @export_subgroup("Logging")
