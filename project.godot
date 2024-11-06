@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Sonic Worlds Next"
+config/name="Sonic The ArchipelaHog"
 run/main_scene="res://Scene/Main.tscn"
 config/features=PackedStringArray("4.2")
 boot_splash/bg_color=Color(1, 1, 1, 1)
@@ -21,6 +21,9 @@ config/icon="res://icon.png"
 
 Global="*res://Scripts/Global/Global.gd"
 GlobalFunctions="*res://Scripts/Global/GlobalFunctions.gd"
+Archipelago="*res://godot_ap/autoloads/archipelago.tscn"
+TrackerManager="*res://godot_ap/autoloads/tracker_manager.gd"
+Saves="*res://godot_ap/autoloads/saves.gd"
 
 [debug]
 
